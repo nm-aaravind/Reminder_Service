@@ -23,6 +23,7 @@ module.exports = {
       },
       status: {
         type: Sequelize.ENUM,
+        defaultValue:"PENDING",
         values:["PENDING","SUCCESS","FAILED"],
         allowNull:false
       },
